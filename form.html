@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        label {
+
+            display: block;
+            margin-top: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 4px 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="top"> Student's Assocition of Kaitra </h1>
+        <h2 class="top"> Registration Portal </h2>
+
+        <nav>
+
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <p style="font-size: larger ;"> Registration from here!</p>
+        </section>
+        <br>
+        <form action="">
+
+            <label for=" username"> Your Name:
+                <input type="name" placeholder=" Enter your name">
+            </label>
+            <label for="email"> Your Email:
+                <input type="email" name="" id=" email" placeholder=" Enter your email">
+            </label>
+            <label for=" Phone"> Your Phone:
+                <input type="Phone" name="" id="Phone" placeholder=" Enter Your Phone">
+
+                <fieldset>
+                    <legend> Your Degree </legend>
+
+                    <label for=" MSc"> MSc
+                        <input type="radio" name=" " id=" Msc">
+                    </label>
+                    <label for=" BSc"> BScS
+                        <input type="radio" name=" " id=" Bsc">
+                    </label>
+                    <label for=" HSC"> HSC
+                        <input type="radio" name=" " id=" HSC">
+                    </label>
+                    <label for=" SSC"> SSC
+                        <input type="radio" name=" " id=" SSC">
+                    </label>
+
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend> Hobbies</legend>
+
+                    <label for=" play"> Playing
+                        <input type="checkbox" name="" id=" Playing">
+                    </label>
+
+                    <label for=" Reading"> Reading
+                        <input type="checkbox" name="" id=" Reading">
+                    </label>
+
+                    <label for=" play"> Traveling
+                        <input type="checkbox" name="" id=" Traveling">
+
+                    </label>
+
+
+                </fieldset>
+                <fieldset>
+                    <legend> Special Skills</legend>
+                    <textarea name="" id="">
+
+                </textarea>
+                </fieldset>
+
+
+                <button type="reset"> Reset</button>
+                <input type="submit" value="submit">
+
+
+            </label>
+
+        </form>
+
+        <section>
+            <header>
+                <h1> Table Creation</h1>
+
+            </header>
+            <table>
+                <caption> Assocition Member List </caption>
+
+                <thead>
+                    <tr>
+                        <th> SL.</th>
+                        <th> Name</th>
+                        <th> Designation</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td> 1</td>
+                        <td> Abir</td>
+                        <td> Founder</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> 2</td>
+                        <td> Manun</td>
+                        <td> Join-Secretry-1</td>
+
+                    </tr>
+                    <tr>
+                        <td> 3</td>
+                        <td> Fahum</td>
+                        <td> Join-Secretry-2</td>
+
+                    </tr>
+                    <tr>
+                        <td> 4</td>
+                        <td> Sunny</td>
+                        <td>Current President</td>
+
+                    </tr>
+
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3"> Tolal Member: 3</td>
+                    </tr>
+
+                </tfoot>
+            </table>
+
+
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <small>
+            <p style="text-align:center;">All Copyright @ SAK </p>
+        </small>
+    </footer>
+
+
+
+
+</body>
+
+</html>
